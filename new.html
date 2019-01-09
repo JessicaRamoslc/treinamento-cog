@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minha primeira página</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+
+        body {
+            margin-left: 200px;
+            margin-right: 100px;
+            margin-top: 150px;
+            border: black;
+            width: 800px;
+
+        }
+    
+  
+    
+    
+    </style>
+    
+</head>
+<body>    
+    <h1>{{title}}</h1>  
+    <form action="/create" method="POST">
+        <p>Nome: </p>
+        <input type="text" name="nome">
+        <p>Gênero: </p>
+        <input type="text" name="genero">
+        <p>Ano: </p>
+        <input type="text" name="ano">
+        <button type="submit">Criar Anime</button>
+    </form>    
+</body>
+</html>
